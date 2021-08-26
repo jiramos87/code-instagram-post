@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: black;
+    font-weight: 400;
+}
+
+.card {
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    background-color: white;
+    margin: 20px auto;
+}
+
+.header-div{
+    display: flex;
+    flex-direction: row;
+    margin: 7px;
+}
+
+.user-icon {
+    width: 30px;
+    height: 30px;
+    background-image: url(../148556.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4px;
+}
+
+.username {
+    font-weight: 700;
+    font-size: 10px;
+}
+
+.location {
+    font-weight: 400;
+    font-size: 9px;
+}
+
+.options {
+    width: 26px;
+    height: 22px;
+    background-image: url(../three_dots_vertical_icon_159806.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 26px 22px;
+    margin-left: 130px;
+    margin-top: 3px;
+}
+
+.picture {
+    width: 300px;
+    height: 300px;
+    background-image: url(../PN-Queulat-1920.jpeg);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bottom-div {
+    display: flex;
+    flex-direction: column;
+    padding: 11px;
+}
+
+.actions-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.like-button {
+    width: 30px;
+    height: 30px;
+    background-image: url(../instagram-heart-png-23872.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    margin-top: 3px;
+     
+}
+
+.comment-button {
+    width: 22px;
+    height: 21px;
+    background-image: url(../comment-white-oval-bubble.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 21px 21px;
+    margin-top: 3px;
+     
+}
+
+.send-button {
+    width: 23px;
+    height: 22px;
+    background-image: url(../ce4838ded90500bbf6cd466b1df45209.jpeg);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 22px 22px;
+    margin-top: 2px;
+    margin-left: 4px; 
+}
+
+.save-button {
+    width: 26px;
+    height: 26px;
+    background-image: url(../6453658.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 26px 26px;
+    margin-left: 178px;
+     
+}
+
+.likedby {
+    font-size: 9px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.caption {
+    font-size: 9px;
+    font-weight: 400; 
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
